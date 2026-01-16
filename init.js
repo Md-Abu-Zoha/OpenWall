@@ -4,7 +4,7 @@ require("dotenv").config();
 const Chat = require("./models/chat");
 
 async function main() {
-  const uri = process.env.MONGODB_URI || "mongodb://127.0.0.1/ChatBoard";
+  const uri = process.env.MONGODB_URI || "mongodb://127.0.0.1/OpenWall";
   await mongoose.connect(uri);
 }
 

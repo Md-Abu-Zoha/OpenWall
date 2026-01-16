@@ -1,6 +1,6 @@
-# ChatBoard 📝💬
+# OpenWall 📝💬
 
-A full-stack **ChatBoard application** that allows users to perform **CRUD operations** on chat messages. Built using **Node.js**, **Express**, **MongoDB**, and **RESTful APIs**, it demonstrates how to manage data and dynamically update the user interface.
+A full-stack **OpenWall application** that allows users to perform **CRUD operations** on chat messages. Built using **Node.js**, **Express**, **MongoDB**, and **RESTful APIs**, it demonstrates how to manage data and dynamically update the user interface.
 
 ## 📌 Features
 - **Create** new chat messages

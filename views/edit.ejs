@@ -12,28 +12,29 @@
     <title>Edit Chat</title>
   </head>
   <body class="ms-3 mt-3">
-    <p class="fw-medium"><b>Edit your chat : </b><%= chat._id %></p>
-    <p class="fw-medium fs-4">
-      This chat was sent from <b><%= chat.from %></b> to <b><%= chat.to %></b>
-    </p>
+    <div style="max-width: 700px; background: rgba(255, 255, 255, 0.95); padding: 40px; border-radius: 16px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);">
+      <h2 class="mb-3" style="color: #667eea; font-weight: 600;">Edit Chat</h2>
+      <p class="mb-2" style="color: #6c757d; font-size: 0.9rem;">Chat ID: <span style="font-family: monospace;"><%= chat._id %></span></p>
+      <p class="mb-4" style="color: #4a5568; font-size: 1rem;">
+        From <b style="color: #667eea;"><%= chat.from %></b> • Tags <b style="color: #667eea;"><%= chat.to %></b>
+      </p>
 
-    <form method="post" action="/chats/<%= chat._id %>?_method=PUT">
-      <div class="row mb-3">
-        <label for="message" class="form-label fw-bold">Edit :</label>
-        <div class="col-sm-6">
+      <form method="post" action="/chats/<%= chat._id %>?_method=PUT">
+        <div class="mb-4">
+          <label for="message" class="form-label">Edit Message:</label>
           <textarea
             id="message"
             name="message"
             class="form-control"
             rows="6"
-            cols="50"
-          >
-<%= chat.message %></textarea
-          >
+            style="resize: vertical;"
+          ><%= chat.message %></textarea>
         </div>
-      </div>
-      <br />
-      <button class="btn btn-primary">Edit</button>
-    </form>
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary" type="submit">Save Changes</button>
+          <a href="/chats" class="btn" style="background: #e2e8f0; color: #4a5568; text-decoration: none; padding: 12px 30px; border-radius: 8px; font-weight: 600;">Cancel</a>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

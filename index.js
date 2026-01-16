@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 async function main() {
   // accept either MONGO_URI (repo) or MONGODB_URI (your current .env)
-  const uri = process.env.MONGO_URI || process.env.MONGODB_URI || "mongodb://127.0.0.1/ChatBoard";
+  const uri = process.env.MONGO_URI || process.env.MONGODB_URI || "mongodb://127.0.0.1/OpenWall";
   console.log('Attempting to connect to MongoDB with URI:', uri ? (uri.startsWith('mongodb+srv://') ? 'mongodb+srv://<REDACTED>' : uri) : 'none');
   await mongoose.connect(uri);
 }
