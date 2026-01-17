@@ -20,6 +20,4 @@ A full-stack **OpenWall application** that allows users to perform **CRUD operat
 
 ## 📺 Demo Video
 
-[Watch Demo Video]([https://github.com/Md-Abu-Zoha/OpenWall/raw/main/OpenWall%20working.mp4](https://github.com/user-attachments/assets/8266e0c9-a78a-4a2b-9772-b6a38c07ffbe))
-
-> Click the link above to download and watch the demo video
+> https://github.com/user-attachments/assets/8266e0c9-a78a-4a2b-9772-b6a38c07ffbe
