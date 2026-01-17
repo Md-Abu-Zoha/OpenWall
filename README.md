@@ -19,4 +19,7 @@ A full-stack **OpenWall application** that allows users to perform **CRUD operat
 - Bootstrap
 
 ## 📺 Demo Video
-> https://github.com/user-attachments/assets/ae70759b-f4b9-45a8-9097-5cbc1bcd086e
+
+[Watch Demo Video](https://github.com/Md-Abu-Zoha/OpenWall/raw/main/OpenWall%20working.mp4)
+
+> Click the link above to download and watch the demo video
